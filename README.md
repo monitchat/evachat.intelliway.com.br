@@ -1,24 +1,23 @@
-# intellidesk.com.br
+# evachat.intelliway.com.br
 
 Site institucional do IntelliDesk (plataforma da Intelliway operada no Brasil,
-região Oracle sa-saopaulo-1), servido por GitHub Pages. Mesma estrutura do
+região Oracle sa-saopaulo-1), servido por GitHub Pages em
+`evachat.intelliway.com.br`. Mesma estrutura do
 site do VipDesk — é dele que esta versão foi derivada.
 
 ## Publicar
 
 1. Suba este diretório num repositório **público** (Pages gratuito exige público).
 2. *Settings → Pages → Source*: `main` / raiz.
-3. *Custom domain*: `intellidesk.com.br` (o arquivo `CNAME` já está aqui).
-4. No DNS do domínio, registros **A** para o apex — CNAME não funciona na raiz:
+3. *Custom domain*: `evachat.intelliway.com.br` (o arquivo `CNAME` já está aqui).
+4. No DNS (Cloudflare da intelliway.com.br), um registro **CNAME**:
 
    ```
-   185.199.108.153
-   185.199.109.153
-   185.199.110.153
-   185.199.111.153
+   evachat  CNAME  monitchat.github.io
    ```
 
-   E opcionalmente `www` como CNAME para `<usuario>.github.io`.
+   Nuvem **cinza** (DNS only) até o GitHub emitir o certificado; depois pode
+   voltar a proxiar se quiser.
 5. Aguarde o certificado e marque **Enforce HTTPS**.
 
 ## Por que o conteúdo é o que é
@@ -44,7 +43,7 @@ compara esta página com os escopos solicitados.
 | Empresa | Intelliway Tecnologia Ltda · CNPJ 21.337.573/0001-85 |
 | Endereço | Rua Roberto da Silva, 20, Ed. Premium Office, Sala 309 — Mata da Praia, Vitória/ES, CEP 29066-091 |
 | Contato | contato@intelliway.com.br · dpo@intelliway.com.br |
-| Plataforma | https://evachat.intelliway.com.br |
+| Plataforma | https://app.evachat.intelliway.com.br |
 | Foro (Termos) | comarca de Vitória/ES |
 
 Os logos em `assets/` vieram do próprio front (`icon-512.png` e `icon-192.png`).

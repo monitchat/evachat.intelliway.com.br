@@ -43,7 +43,7 @@ compara esta página com os escopos solicitados.
 | Empresa | Intelliway Tecnologia Ltda · CNPJ 21.337.573/0001-85 |
 | Endereço | Rua Roberto da Silva, 20, Ed. Premium Office, Sala 309 — Mata da Praia, Vitória/ES, CEP 29066-091 |
 | Contato | contato@intelliway.com.br · dpo@intelliway.com.br |
-| Plataforma | https://app.evachat.intelliway.com.br |
+| Plataforma | https://chat.intelliway.com.br |
 | Foro (Termos) | comarca de Vitória/ES |
 
 Os logos em `assets/` vieram do próprio front (`icon-512.png` e `icon-192.png`).
